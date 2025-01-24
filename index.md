@@ -5,3 +5,4 @@
 layout: single
 author_profile: true
 ---
+![Alt text](/assets/images/profile_photo.jpeg)
