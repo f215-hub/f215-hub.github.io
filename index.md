@@ -8,5 +8,4 @@ author_profile: true
 
 {:refdef: style="text-align: center;"}
 [![AboutMe](/assets/images/profile_photo.jpeg)](about)
-
 {:refdef}
