@@ -1,6 +1,6 @@
 ---
 title: "Book Reviews"
-layout: categories
+layout: category
 permalink: /book-reviews/
 category: blog
 author_profile: true
