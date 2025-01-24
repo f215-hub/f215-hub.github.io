@@ -7,4 +7,4 @@ author_profile: true
 ---
 
 
-[![AboutMe](/assets/images/profile_photo.jpeg)](about){:style="display:block; margin-left:auto; margin-right:auto"}
+[![AboutMe](/assets/images/profile_photo.jpeg)](about)
