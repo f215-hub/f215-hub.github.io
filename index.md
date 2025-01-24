@@ -7,4 +7,4 @@ author_profile: true
 ---
 
 
-[![Stormy](/assets/images/IMG_7597.jpg)](about)
+[![Stormy](/assets/images/IMG_7597.JPG)](about)
