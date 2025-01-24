@@ -6,6 +6,6 @@ layout: single
 author_profile: true
 ---
  
-<div style="text-align: center;">
+<center>
   [![AboutMe](/assets/images/profile_photo.jpeg)](about)
-</div>
+</center>
