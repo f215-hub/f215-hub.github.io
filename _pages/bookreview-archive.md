@@ -1,6 +1,7 @@
 ---
 title: "Book Reviews"
 layout: categories
-permalink: /categories/#blog
+permalink: /book-reviews/
+category: blog
 author_profile: true
 ---
