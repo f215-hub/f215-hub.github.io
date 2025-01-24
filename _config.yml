@@ -67,7 +67,7 @@ author:
       url: "https://f215-hub.github.io/"
     - label: "Email"
       icon: "fab fa-fw fa-google"
-      style: "color: #f05656;" 
+      style: "color: #f05656" 
       url: "mailto:fei.yu0418@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
