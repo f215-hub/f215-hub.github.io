@@ -5,4 +5,7 @@
 layout: single
 author_profile: true
 ---
-[![AboutMe](/assets/images/profile_photo.jpeg)](about)
+ 
+<div style="text-align: center;">
+  [![AboutMe](/assets/images/profile_photo.jpeg)](about)
+</div>
