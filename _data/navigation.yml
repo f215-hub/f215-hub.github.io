@@ -4,6 +4,6 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Book Reviews"
-    url: /tags/chat/
+    url: /categories/#blog
   - title: "About"
     url: /about/
