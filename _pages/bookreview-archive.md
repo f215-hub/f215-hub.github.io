@@ -2,6 +2,6 @@
 title: "Book Reviews"
 layout: category
 permalink: /book-reviews/
-category: blog
+taxonomy: blog
 author_profile: true
 ---
