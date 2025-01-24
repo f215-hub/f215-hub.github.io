@@ -6,5 +6,7 @@ layout: single
 author_profile: true
 ---
 
+{:refdef: style="text-align: center;"}
+[![AboutMe](/assets/images/profile_photo.jpeg)](about)
 
-[![AboutMe](/assets/images/profile_photo.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}](about)
+{:refdef}
