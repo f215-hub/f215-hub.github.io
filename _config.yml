@@ -66,7 +66,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://f215-hub.github.io/"
     - label: "Email"
-      icon: "fab fa-fw fa-google"
+      icon: "https://icons8.com/icon/K6B6Fw4itaAl/gmail"
       url: "mailto:fei.yu0418@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
