@@ -1,6 +1,5 @@
 ---
-title: "Sustainable Sustainability: Why sustainability is important for future supply chain"
-excerpt_separator: "<!--more-->"
+title: "Post: Why sustainability is important for future supply chain"
 categories:
   - Blog
 tags:
