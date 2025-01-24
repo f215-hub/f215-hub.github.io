@@ -5,4 +5,4 @@
 layout: single
 author_profile: true
 ---
-[![AboutMe](/assets/images/profile_photo.jpeg)](_pages/about)
+[![AboutMe](/assets/images/profile_photo.jpeg)](about)
