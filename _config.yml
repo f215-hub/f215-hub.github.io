@@ -64,22 +64,22 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://f215-hub.github.io/"
     - label: "Email"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      icon: "fab fa-fw fa-google"
+      url: "mailto:fei.yu0418@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/"
+      url: "http://www.linkedin.com/in/fei-yu-b5044621a"
 
 footer:
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      icon: "fab fa-fw fa-google"
+      url: "mailto:fei.yu0418@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/"
+      url: "http://www.linkedin.com/in/fei-yu-b5044621a"
    
 
 defaults:
