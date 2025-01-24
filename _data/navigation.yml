@@ -3,7 +3,7 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
-  - title: "Videos"
-    url: /tags/
+  - title: "Book Reviews"
+    url: /tags/chat/
   - title: "About"
     url: /about/
