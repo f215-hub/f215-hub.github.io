@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
  
-<div style="text-align: center;">
-  [![AboutMe](/assets/images/profile_photo.jpeg)](about)
-</div>
-
+# [![AboutMe](/assets/images/profile_photo.jpeg)](about)
+{:refdef: style="text-align: center;"}
+[![My Image]({{ site.baseimg }}/assets/images/profile_photo.jpeg)](about)
+{: refdef}
