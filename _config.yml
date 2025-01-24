@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Fei Yu"
   avatar : "/assets/images/avatar.jpg"
-  bio    : "A serious business thinker, a random dreamer, and a down-to-earth feeler. One leg in supply chain, another in tech, still learning to trek."
+  bio    : "A serious business thinker, a random dreamer, and a down-to-earth feeler. One foot in supply chain, another in tech, still learning to trek."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
