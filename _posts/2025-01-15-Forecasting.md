@@ -23,14 +23,10 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.holtwinters import ExponentialSmoothing, SimpleExpSmoothing
 ```
 
-
 ```python
 df = pd.read_csv('/Users/feiyu/graduate/Forecasting Project/superstore_sales.csv')
 df.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -45,6 +41,7 @@ df.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -180,10 +177,7 @@ df.head()
 </table>
 </div>
 
-
-
 ## Data Cleaning
-
 
 ```python
 df.info()
@@ -192,30 +186,28 @@ df.info()
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 9800 entries, 0 to 9799
     Data columns (total 18 columns):
-     #   Column         Non-Null Count  Dtype  
-    ---  ------         --------------  -----  
-     0   Row ID         9800 non-null   int64  
-     1   Order ID       9800 non-null   object 
-     2   Order Date     9800 non-null   object 
-     3   Ship Date      9800 non-null   object 
-     4   Ship Mode      9800 non-null   object 
-     5   Customer ID    9800 non-null   object 
-     6   Customer Name  9800 non-null   object 
-     7   Segment        9800 non-null   object 
-     8   Country        9800 non-null   object 
-     9   City           9800 non-null   object 
-     10  State          9800 non-null   object 
+     #   Column         Non-Null Count  Dtype
+    ---  ------         --------------  -----
+     0   Row ID         9800 non-null   int64
+     1   Order ID       9800 non-null   object
+     2   Order Date     9800 non-null   object
+     3   Ship Date      9800 non-null   object
+     4   Ship Mode      9800 non-null   object
+     5   Customer ID    9800 non-null   object
+     6   Customer Name  9800 non-null   object
+     7   Segment        9800 non-null   object
+     8   Country        9800 non-null   object
+     9   City           9800 non-null   object
+     10  State          9800 non-null   object
      11  Postal Code    9789 non-null   float64
-     12  Region         9800 non-null   object 
-     13  Product ID     9800 non-null   object 
-     14  Category       9800 non-null   object 
-     15  Sub-Category   9800 non-null   object 
-     16  Product Name   9800 non-null   object 
+     12  Region         9800 non-null   object
+     13  Product ID     9800 non-null   object
+     14  Category       9800 non-null   object
+     15  Sub-Category   9800 non-null   object
+     16  Product Name   9800 non-null   object
      17  Sales          9800 non-null   float64
     dtypes: float64(2), int64(1), object(15)
     memory usage: 1.3+ MB
-
-
 
 ```python
 df['Order Date'] = pd.to_datetime(df['Order Date'],format='%d/%m/%Y')
@@ -225,46 +217,40 @@ df.info()
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 9800 entries, 0 to 9799
     Data columns (total 18 columns):
-     #   Column         Non-Null Count  Dtype         
-    ---  ------         --------------  -----         
-     0   Row ID         9800 non-null   int64         
-     1   Order ID       9800 non-null   object        
+     #   Column         Non-Null Count  Dtype
+    ---  ------         --------------  -----
+     0   Row ID         9800 non-null   int64
+     1   Order ID       9800 non-null   object
      2   Order Date     9800 non-null   datetime64[ns]
-     3   Ship Date      9800 non-null   object        
-     4   Ship Mode      9800 non-null   object        
-     5   Customer ID    9800 non-null   object        
-     6   Customer Name  9800 non-null   object        
-     7   Segment        9800 non-null   object        
-     8   Country        9800 non-null   object        
-     9   City           9800 non-null   object        
-     10  State          9800 non-null   object        
-     11  Postal Code    9789 non-null   float64       
-     12  Region         9800 non-null   object        
-     13  Product ID     9800 non-null   object        
-     14  Category       9800 non-null   object        
-     15  Sub-Category   9800 non-null   object        
-     16  Product Name   9800 non-null   object        
-     17  Sales          9800 non-null   float64       
+     3   Ship Date      9800 non-null   object
+     4   Ship Mode      9800 non-null   object
+     5   Customer ID    9800 non-null   object
+     6   Customer Name  9800 non-null   object
+     7   Segment        9800 non-null   object
+     8   Country        9800 non-null   object
+     9   City           9800 non-null   object
+     10  State          9800 non-null   object
+     11  Postal Code    9789 non-null   float64
+     12  Region         9800 non-null   object
+     13  Product ID     9800 non-null   object
+     14  Category       9800 non-null   object
+     15  Sub-Category   9800 non-null   object
+     16  Product Name   9800 non-null   object
+     17  Sales          9800 non-null   float64
     dtypes: datetime64[ns](1), float64(2), int64(1), object(14)
     memory usage: 1.3+ MB
-
-
 
 ```python
 # regroup sales by month
 monthly_sales = df.groupby(pd.Grouper(key='Order Date', freq='M'))['Sales'].sum()
 
 # another method
-# 
+#
 ```
-
 
 ```python
 monthly_sales.head()
 ```
-
-
-
 
     Order Date
     2015-01-31    14205.707
@@ -273,9 +259,6 @@ monthly_sales.head()
     2015-04-30    27906.855
     2015-05-31    23644.303
     Freq: M, Name: Sales, dtype: float64
-
-
-
 
 ```python
 plt.figure(figsize=(15, 6))
@@ -287,12 +270,7 @@ plt.legend()
 plt.show()
 ```
 
-
-    
 ![sales_png](/assets/images/Monthly_Sales.png)
-    
-
-
 
 ```python
 # y(t) = Level + Trend + Seasonality + Residual
@@ -301,12 +279,9 @@ decomposition.plot().set_size_inches(14,10)
 plt.show()
 ```
 
-
-    
 ![decompose_png](/assets/images/decompose.png)
-    
 
-
+## Stationary Test for timeseries
 
 ```python
 # stationary test
@@ -323,7 +298,6 @@ def check_stationarity(timeseries):
 
 ```
 
-
 ```python
 is_stationary = check_stationarity(monthly_sales)
 print(f"\nTime series is {'stationary' if is_stationary else 'non-stationary'}")
@@ -336,13 +310,13 @@ print(f"\nTime series is {'stationary' if is_stationary else 'non-stationary'}")
     	1%: -3.5778480370438146
     	5%: -2.925338105429433
     	10%: -2.6007735310095064
-    
+
     Time series is stationary
 
-
+## Stationary Test for residuals
 
 ```python
-# or test risidual to see stationarity 
+# or test risidual to see stationarity
 residuals = decomposition.resid.dropna()  # avoid NaN
 is_stationary = check_stationarity(residuals)
 print(f"\nTime series is {'stationary' if is_stationary else 'non-stationary'}")
@@ -355,10 +329,8 @@ print(f"\nTime series is {'stationary' if is_stationary else 'non-stationary'}")
     	1%: -3.6699197407407405
     	5%: -2.9640707407407407
     	10%: -2.621171111111111
-    
+
     Time series is stationary
-
-
 
 ```python
 
