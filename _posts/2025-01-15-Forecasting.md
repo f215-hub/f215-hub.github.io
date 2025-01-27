@@ -1,5 +1,5 @@
 ---
-title: "Notes of ARIMA Time-Series Forecasting"
+title: "Notes of ARIMA Time-Series Forecasting (updating)"
 date: 2025-01-15T15:34:30-04:00
 categories:
   - Blog
