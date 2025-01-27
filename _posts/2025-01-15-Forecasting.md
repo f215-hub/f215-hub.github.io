@@ -289,7 +289,7 @@ plt.show()
 
 
     
-![png](Forecasting_files/Forecasting_7_0.png)
+![sales_png](/assets/images/Monthly Sales.png)
     
 
 
@@ -303,7 +303,7 @@ plt.show()
 
 
     
-![png](Forecasting_files/Forecasting_8_0.png)
+![decompose_png](/assets/images/decompose.png)
     
 
 
