@@ -1,5 +1,5 @@
 ---
-title: "Turn Around And Take a Step Forward: Let my people go surfing book review"
+title: "Let my people go surfing: The Importance of Sustainability for Future Businesses"
 date: 2024-09-14T15:34:30-04:00
 categories:
   - bookreview
