@@ -3,6 +3,7 @@ title: "Turn Around And Take a Step Forward: Why sustainability is important for
 date: 2024-09-14T15:34:30-04:00
 categories:
   - blog
+  - bookreview
 tags:
   - supply chain
   - sustainability
