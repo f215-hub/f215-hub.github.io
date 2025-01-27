@@ -8,7 +8,7 @@ tags:
   - python
 ---
 
-
+## Import Libs
 
 ```python
 import pandas as pd
@@ -289,7 +289,7 @@ plt.show()
 
 
     
-![sales_png](/assets/images/Monthly Sales.png)
+![sales_png](/assets/images/Monthly_Sales.png)
     
 
 
