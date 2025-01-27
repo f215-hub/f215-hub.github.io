@@ -9,8 +9,8 @@ tags:
 
 ## Preparations
 1.	Learning Systems Module 1-8 & Quizzes
-2.	CSCP Module Content Outline
-3.	CSCP Exam Content Manual (very important)
+2.	[CSCP Module Content Outline][mco]
+3.	[CSCP Exam Content Manual][ecm] (very important)
 4.	Pocket Prep. App 
 5.	IMM
 6.	APICS Dictionary
@@ -50,3 +50,5 @@ Don’t overlook the power of repetition, especially in the final two weeks befo
 8.	Additional resources 
 Finally, if more time is available, there are lots of learning resources and mock questions online, such as Pocket Prep. I personally like it since explanations are very helpful and the team is responsive. They even have subject experts to answer your questions. You can choose these additional tools wisely according to your own learning and review paces.
 
+[mco]: https://www.ascm.org/globalassets/ascm_website_assets/docs/cscp-module-content-outline.pdf
+[ecm]: https://www.ascm.org/globalassets/ascm_website_assets/docs/ecm/ecm-cscp.pdf
