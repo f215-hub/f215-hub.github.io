@@ -2,7 +2,7 @@
 title: "How I Passed the CSCP Exam with a Score of 329: My Tips and Experiences"
 date: 2024-11-15T15:34:30-04:00
 categories:
-  - blog
+  - Blog
 tags:
   - cscp
 ---
