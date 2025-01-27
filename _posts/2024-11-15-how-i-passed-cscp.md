@@ -44,19 +44,4 @@ Don’t overlook the power of repetition, especially in the final two weeks befo
 
 7.	Additional resources 
 Finally, if more time is available, there are lots of learning resources and mock questions online, such as Pocket Prep. I personally like it since explanations are very helpful and the team is responsive. They even have subject experts to answer your questions. You can choose these additional tools wisely according to your own learning and review paces.
-![image](https://github.com/user-attachments/assets/e889328f-9bdf-4eae-af40-9b46d7883d35)
 
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
