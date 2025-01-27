@@ -1,5 +1,5 @@
 ---
-title: "Notes of ARIMA Time-Series Forecasting (updating)"
+title: "ARIMA Time-Series Forecasting (updating)"
 date: 2025-01-15T15:34:30-04:00
 categories:
   - Blog
@@ -331,7 +331,3 @@ print(f"\nTime series is {'stationary' if is_stationary else 'non-stationary'}")
     	10%: -2.621171111111111
 
     Time series is stationary
-
-```python
-
-```
