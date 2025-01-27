@@ -11,7 +11,7 @@ tags:
 1.	Learning Systems Module 1-8 & Quizzes
 2.	[CSCP Module Content Outline][mco]
 3.	[CSCP Exam Content Manual][ecm] (very important)
-4.	Pocket Prep. App 
+4.	[Pocket Prep.][pp_cscp]
 5.	IMM
 6.	APICS Dictionary
 
@@ -24,6 +24,7 @@ tags:
   Although studying each word of the Learning Systems can feel overwhelmed and tedious, you can always customize the order of materials and start from your most comfortable and interested topic first. From this method you can boost your confidence and motivation as you progress. For example, you can begin with demand or supply and later combine both when you studying Sales & Operation Planning.
 
   Here are my steps studying Learning System:
+  
   1. After roughly going through all the modules and topics, I started from Module 1 Section B to D, which is about demand management. It is the most relevant topic to my work.
   2. Then I reached to the production planning section since I am also familiar with production topics.
   3. Without much background in SRM and CRM, I learned them from scratch and dedicated more time understanding.
@@ -59,3 +60,4 @@ tags:
 
 [mco]: https://www.ascm.org/globalassets/ascm_website_assets/docs/cscp-module-content-outline.pdf
 [ecm]: https://www.ascm.org/globalassets/ascm_website_assets/docs/ecm/ecm-cscp.pdf
+[pp_cscp]: https://www.pocketprep.com/exams/apics-cscp/ 
