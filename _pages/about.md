@@ -10,4 +10,5 @@ Fun facts:
 1. Nebraska Cornhusker for six years
 2. Proud parent of three adopted cats: Stormy(6), Tyson(age unknown), Emma(1)
 3. Prefer combo of Python + Jupyter Notebook
-4. Swiftie
+4. Favorite game: Don't Starve Together
+5. Swiftie
