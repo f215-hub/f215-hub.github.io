@@ -1,3 +1,15 @@
+---
+title: "Notes of ARIMA Time-Series Forecasting"
+date: 2025-01-15T15:34:30-04:00
+categories:
+  - Blog
+tags:
+  - coding
+  - python
+---
+
+
+
 ```python
 import pandas as pd
 import numpy as np
