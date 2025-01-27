@@ -1,7 +1,7 @@
 ---
 title: "Turn Around And Take a Step Forward: Why sustainability is important for future supply chain"
 categories:
-  - Blog
+  - blog
 tags:
   - supply chain
   - sustainability
