@@ -6,7 +6,7 @@ categories:
 tags:
   - cscp
 ---
-
+![cscp-report](/assets/images/cscp-report.png)
 ## Preparations
 1.	Learning Systems Module 1-8 & Quizzes
 2.	[CSCP Module Content Outline][mco]
