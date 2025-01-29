@@ -14,4 +14,4 @@ Fun facts:
 5. Swiftie
 
 ![Tyson](/assets/images/tyson.JPG)
-![Stormy and Tyson](/assets/images/stormyntyson.JPG)
+![Emma](/assets/images/IMG_1814.JPG)
