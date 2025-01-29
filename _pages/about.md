@@ -12,3 +12,6 @@ Fun facts:
 3. Prefer combo of Python + Jupyter Notebook
 4. Favorite game: Don't Starve Together
 5. Swiftie
+
+![Tyson](/assets/images/tyson.JPG)
+![Stormy and Tyson](/assets/images/stormyntyson.JPG)
